@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALLERY</title>
+    <link rel="stylesheet" href="../cascading.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+  transform: scale(0.75);
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+</head>
+<body>
+    <div class="c">
+        <img src="../images/image.jpg" class="a">
+        <center><h1>CAMPAIGN OF NATURE</h1></center>
+        </div>
+        <hr>
+        <nav>
+        <a href="../index.html"class="e">HOME</a>
+        <a href="about us.html"class="e">ABOUT US</a>
+        <a href=""class="e">GALLERY</a>
+        <a href="login.html"class="e">LOGIN</a>
+        <div class="f">
+<a href="contact us.html"class="f1">CONTACT US</a></div>
+        </nav>
+
+<div class="row">
+  <div class="column">
+    <img src="../images/a1.jpg"  style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="../images/a2.jpg"  style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="../images/a3.jpg" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="../images/a4.jpg" style="width:100%;" onclick="myFunction(this);">
+  </div>
+</div>
+<div class="row">
+    <div class="column">
+      <img src="../images/a9.jpg"  style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="../images/a10.jpg"  style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="../images/a11.jpg" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="../images/a12.jpg" style="width:100%;" onclick="myFunction(this);">
+    </div>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="../images/a5.jpg"  style="width:100%;" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="../images/a6.jpg"  style="width:100%;" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="../images/a7.jpg" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="../images/a8.jpg" style="width:100%;" onclick="myFunction(this);">
+    </div>
+  </div>
+
+</body>
+</html>
